@@ -1,0 +1,73 @@
+#contactos, .itemslider {
+    height: auto;
+    border-top: 4px solid #009432;
+    max-height: ;
+    overflow: hidden;
+    color: black;
+    position: relative;
+    padding-top: 20px;
+}
+
+.owl-carousel,  .itemslider .owl-carousel{
+    max-width: 90vw;
+    margin: auto;
+}
+#contactos h2, .itemslider h2{
+    color: #0652DD
+}
+
+#contactos .contenedor, .itemslider .contenedor{
+    width: 100%;
+    height: 100%
+}
+
+#contactos .owl-carousel .item, .itemslider .owl-carousel .item{
+    width: 100%;
+    height: 400px;
+    background: ;
+}
+
+#contactos .item, .itemslider .item{
+    text-align: center
+}
+
+#contactos h3{
+
+}
+
+#contactos .imagen, #equipo .imagen{
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    overflow: hidden;
+    background: ;
+    margin: auto;
+    box-shadow: 2px 2px 8px black;
+}
+
+#contactos img, .itemslider img{
+    width: 220px;
+    margin: auto;
+}
+
+#contactos ul, .itemslider ul{
+    list-style: none;
+}
+
+#contactos .owl-item, .itemslider .owl-item{
+    max-width: 460px;
+}
+
+#contactos .owl-nav, .itemslider .owl-nav{
+ 
+  text-align: center;
+    
+}
+
+#contactos .owl-dots, .itemslider .owl-dots{
+    
+    text-align: center;
+   
+}
+
+

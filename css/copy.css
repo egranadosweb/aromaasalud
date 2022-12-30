@@ -1,0 +1,20 @@
+#copy{
+    padding: 20px;
+    height: auto;
+    background: #333;
+    color: white;
+}
+
+#copy .contenedor{
+    text-align: center
+}
+
+#copy p{
+    line-height: 18px;
+}
+
+#copy a{
+    text-decoration: none;
+    color: skyblue;
+}
+

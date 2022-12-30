@@ -1,0 +1,11 @@
+#masproductos{
+    height: auto;
+    background-image: url(../img/texturas/hojas.png);
+    background-repeat: repeat;   
+}
+
+#masproductos  h2{
+    display: table;
+    margin:auto;
+}
+

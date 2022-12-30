@@ -1,0 +1,53 @@
+#beneficios{
+    height: auto;
+    background: white;
+    color: #6F1E51;  
+     border-top: 4px solid #009432;
+}
+
+#beneficios article img{
+    max-width: 450px;
+    padding: 15px 10px;
+}
+
+#beneficios article {
+   margin: auto;
+    max-width: 500px;
+    padding: 15px 10px;
+    border-radius: 10px;
+}
+
+#beneficios ul{
+    list-style: none
+}
+#beneficios ul li{
+    margin-bottom: 5px;
+    font-size: 16px;
+    line-height: 21px;
+}
+
+#beneficios h2{
+    text-align: center
+}
+
+#beneficios img{
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+}
+
+@media(min-width:992px){
+    #beneficios .contenedor{
+        display: flex;
+        justify-content: ;
+        flex-wrap: wrap;
+        max-width: ;
+        }
+    
+    #beneficios article {
+            max-width: 400px;
+            padding: 15px 15px;
+            border-radius: 10px;;
+        }
+}
+

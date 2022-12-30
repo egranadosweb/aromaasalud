@@ -1,0 +1,29 @@
+#equipo{
+     background-image: url(../img/c3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    border-top: 4px solid #009432;
+}
+
+#equipo .contenedor{
+    color: white;
+}
+
+.itemslider h2{
+    color:#fff;
+}
+
+#equipo .imagen{
+   -webkit-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 0px 0px 5px rgba(0,0,0,0.75);
+    box-shadow: 0px 0px 0px 5px rgba(255,195,18,0.75);
+}
+
+#equipo .item img{
+    transform: translateY(-29px);
+}
+
+#equipo .descripcion ul span{
+   
+}

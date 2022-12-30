@@ -1,0 +1,180 @@
+#productos{
+    background-image: url(../img/texturas/hojas.png);
+    background-repeat: repeat;
+}
+#productos h2{
+    display: table;    
+}
+.productos  {
+    text-align: center;
+    background-color: #fff;
+}
+
+.pro .contenedor{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.articulos ul{
+    font-size: 14px;
+    list-style: none;
+}
+
+.articulos ul li:last-child{
+    margin-top: 8px;
+}
+
+.articulos a{
+    font-size: 16px;
+    padding: 3px;
+    text-decoration: none;
+    color: darkgreen;
+    border: 2px solid #ff0000;
+    border-radius: 8px;
+    background-color: #ff0000;
+    color: white; 
+    text-shadow: 2px 2px 4px black;
+    box-shadow: 2px 2px 4px black;
+}
+
+.articulos a:hover{
+    text-decoration: none;
+    
+}
+
+.prueba{
+    margin: auto;
+    height: 140px;
+    padding-top: 5px;
+}
+
+.pro article{
+    margin: 15px;
+    width: 305px;
+    height: 305px;
+    position: relative;
+    padding-bottom: 150px;
+    border-radius: 100%;
+    border: 3px solid #F79F1F;
+    overflow: hidden;
+    box-shadow: 4px 6px 8px 0px gray;
+    margin-top: 20px;
+}
+
+
+.pro img{
+    width: 100%;
+    max-width: 170px;
+   
+}
+
+.pro .p{
+    margin: auto; 
+    top: 50px;
+    
+}
+
+.pro h3{
+    font-size: 22px;
+    text-decoration: underline  red;
+}
+
+@media(min-width:1px){
+    .pro article{
+       
+    }
+    
+    .pro .articulos{
+       
+    }
+    
+    .pro .articulos h3{
+       
+    }
+    
+    .pro .articulos ul li{
+       
+    }
+    
+    .pro img{
+     
+}
+}
+
+@media(min-width:400px){
+    .pro article{
+       
+    }
+    
+    .pro .articulos{
+        margin-top:;
+    }
+    
+    .pro .articulos h3{
+        
+    }
+    
+    .pro .articulos ul li{
+        
+    }
+    
+    .pro img{
+        width: 100%;
+        max-width: 170px;
+    }
+}
+
+@media(min-width:600px){
+    .pro article{
+        width: 350px;
+        height: 350px; 
+    }
+    
+    .pro .articulos{
+        margin-top:;
+    }
+    
+    .pro .articulos h3{
+        font-size: 24px;
+    }
+    
+    .pro .articulos ul{
+        font-size: 16px;
+    }
+    
+    .pro img{
+        width: 100%;
+        max-width: 170px;
+    }
+}
+
+
+@media(min-width:999px){
+    .pro article{
+        width: 350px;
+        height: 350px; 
+    }
+    
+    .pro .articulos{
+        margin-top: 15px;
+    }
+    
+    .pro .articulos a{
+        font-size: 19px;
+    }
+    
+    .pro .articulos h3{
+        
+    }
+    
+    .pro .articulos ul li{
+        
+    }
+    
+    .pro img{
+        margin-top:10px;
+    width: 100%;
+    max-width: 180px;
+}
+}
